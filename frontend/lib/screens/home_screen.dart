@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'flashcard_screen.dart';
 import 'game_screen.dart';
-import 'dialogue_screen.dart';
+import 'chat_screen.dart';
 import 'about_screen.dart';
 import 'setting_screen.dart';
 
@@ -76,7 +76,7 @@ class HomeScreen extends StatelessWidget {
               label: '情境對話',
               imagePath: 'assets/images/dialogue.png',
               borderColor: Colors.blue,
-              destination: DialogueScreen(),
+              destination: ChatScreen(),
             ),
             _buildCard(
               context: context,

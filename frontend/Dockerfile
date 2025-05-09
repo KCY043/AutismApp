@@ -1,5 +1,3 @@
-From nginx:latest
+FROM alpine:latest
 
-COPY ./dist /usr/share/nginx/html
-
-EXPOSE 80
+CMD ["echo", "Flutter frontend container placeholder"]
