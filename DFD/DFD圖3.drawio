@@ -1,0 +1,64 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="27.0.6">
+  <diagram name="第 1 页" id="sZRFBv6sYpbjYz4XyDld">
+    <mxGraphModel dx="731" dy="432" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="c6W2hDfHxeFcvpVIOMcM-4" value="user" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="20" y="198" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="knQaNL17RGBqhsnCMPb8-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;" parent="1" source="knQaNL17RGBqhsnCMPb8-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="201.84210526315792" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="knQaNL17RGBqhsnCMPb8-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;" parent="1" source="knQaNL17RGBqhsnCMPb8-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="258.68421052631584" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="knQaNL17RGBqhsnCMPb8-1" value="3.1&lt;div&gt;課程&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="300" y="190" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="knQaNL17RGBqhsnCMPb8-3" value="提供課程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="180" y="270" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="knQaNL17RGBqhsnCMPb8-5" value="使用課程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="180" y="180" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="knQaNL17RGBqhsnCMPb8-11" value="課程資料" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="510" y="198" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="knQaNL17RGBqhsnCMPb8-20" value="生成課程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="400" y="250" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="knQaNL17RGBqhsnCMPb8-22" value="課程資料" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="400" y="168" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="knQaNL17RGBqhsnCMPb8-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1.037;entryY=0.674;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="knQaNL17RGBqhsnCMPb8-11" target="knQaNL17RGBqhsnCMPb8-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="knQaNL17RGBqhsnCMPb8-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=-0.016;entryY=0.297;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="c6W2hDfHxeFcvpVIOMcM-4" target="knQaNL17RGBqhsnCMPb8-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="knQaNL17RGBqhsnCMPb8-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="knQaNL17RGBqhsnCMPb8-27" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="30" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="knQaNL17RGBqhsnCMPb8-27" value="3&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;.2&lt;/span&gt;&lt;div&gt;&lt;div&gt;查看課程&lt;/div&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="300" y="300" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="knQaNL17RGBqhsnCMPb8-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=1.01;entryY=0.878;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="knQaNL17RGBqhsnCMPb8-11" target="knQaNL17RGBqhsnCMPb8-27" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="knQaNL17RGBqhsnCMPb8-31" value="課程資料" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="405" y="338" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="knQaNL17RGBqhsnCMPb8-32" value="課程資料" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="115" y="358" width="70" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
