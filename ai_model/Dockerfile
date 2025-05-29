@@ -1,10 +1,10 @@
-FROM python:3.11-slim
+FROM python:3.10-slim
 
 WORKDIR /app
 
-COPY ./requirements.txt /app/requirements.txt
-RUN pip install -r /app/requirements.txt
-
 COPY . /app
 
-CMD ["python", "main.py"]   # 如果有main.py或你主要啟動的檔案
+RUN pip install --no-cache-dir -r requirements.txt
+
+
+CMD ["uvicorn", "ai_model_entry:app", "--host", "0.0.0.0", "--port", "8001"]

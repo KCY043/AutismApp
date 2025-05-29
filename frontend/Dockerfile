@@ -1,3 +1,3 @@
-FROM alpine:latest
+FROM nginx:latest
 
-CMD ["echo", "Flutter frontend container placeholder"]
+COPY ./build/web /usr/share/nginx/html

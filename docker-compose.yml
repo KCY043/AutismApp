@@ -1,19 +1,19 @@
-version: '3.8'
 
 services:
   ai_model:
     build: ./ai_model
     container_name: autism_ai_model
-    networks:
-      - autism_network
+    ports:
+      - "8001:8001"
+
 
   backend:
-    build: ./backend
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
     container_name: autism_backend
     ports:
       - "8000:8000"
-    networks:
-      - autism_network
 
   frontend:
     build: ./frontend
