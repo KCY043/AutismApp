@@ -1,7 +1,0 @@
-global:
-  scrape_interval: 15s
-
-scrape_configs:
-  - job_name: 'autism_backend'
-    static_configs:
-      - targets: ['autism_backend:8000']
