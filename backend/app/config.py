@@ -1,0 +1,1 @@
+DATABASE_URL = "postgresql+psycopg2://snow:snow1219@db:5432/autism_app"
