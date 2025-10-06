@@ -12,17 +12,18 @@ class BottomNavBar extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return BottomNavigationBar(
-      currentIndex: currentIndex,
-      onTap: onTap,
-      selectedItemColor: Colors.indigo,
-      unselectedItemColor: Colors.grey,
-      items: const [
-        BottomNavigationBarItem(icon: Icon(Icons.emoji_emotions), label: '情緒'),
-        BottomNavigationBarItem(icon: Icon(Icons.videogame_asset), label: '遊戲'),
-        BottomNavigationBarItem(icon: Icon(Icons.menu_book), label: '學習'),
-        BottomNavigationBarItem(icon: Icon(Icons.info), label: '關於'),
-        BottomNavigationBarItem(icon: Icon(Icons.person), label: '我'),
+    return NavigationBar(
+      selectedIndex: currentIndex,
+      onDestinationSelected: onTap,
+      backgroundColor: Colors.white,
+      indicatorColor: const Color(0xFFFFECF5), // 粉色選取底
+      elevation: 2,
+      destinations: const [
+        NavigationDestination(icon: Icon(Icons.emoji_emotions), label: '情緒'),
+        NavigationDestination(icon: Icon(Icons.videogame_asset), label: '遊戲'),
+        NavigationDestination(icon: Icon(Icons.menu_book), label: '學習'),
+        NavigationDestination(icon: Icon(Icons.info), label: '關於'),
+        NavigationDestination(icon: Icon(Icons.person), label: '我'),
       ],
     );
   }
